@@ -11,4 +11,7 @@ console.log(this.sports);
 논리적으로 접근하면 js에 글로벌 오브젝트는 있지만 window 오브젝트는 없음.
 window 오브젝트에는 DOM메서드도 있고 window 오브젝트 자체의 프로퍼티도 있다.
 이와 같이 window 오브젝트에 글로벌 오즈젝트가 존재하는 개념이다.
+
+this.sports가 undefined가 출력. this가 window오브젝트를 참조하는 데 window 오브젝트에 let 변수가 없다는 것은 window 오브젝트에 let 변수가 설정되지 않는다는 의미.
+이게 var과 let의 차이이다.
 */
